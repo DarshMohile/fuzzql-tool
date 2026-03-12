@@ -222,7 +222,7 @@ def main():
 
         # print bypass summary once
         if bypass_findings:
-            print("\n!!! Potential Login Bypass Detected: !!!")
+            print("\n>Potential Login Bypass Detected:")
             for bf in bypass_findings:
                 print(f"- field={bf['field']} payload={bf['payload']!r} issues={bf['issues']}")
     else:
